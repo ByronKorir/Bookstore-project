@@ -1,4 +1,4 @@
-#### The app is a simple Bookstore project, 11/10/2023
+#### The app is a simple Bookstore project, 12/10/2023
 #### **By Byron Korir**
 ## Project Description
     Its a simple Bookstore web application
