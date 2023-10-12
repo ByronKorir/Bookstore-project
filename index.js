@@ -29,16 +29,7 @@ function displayAllbooks(){
          </div>
              
        `
-       //displaying description 
-      //  card.addEventListener('click',() => {
-      //    console.log(book.id)
-      //    const description = card.querySelector('#description')
-      //    description.textContent=`${book.description}`
-      //    setTimeout(() => {
-      //       description.textContent=''            
-      //    }, 10000);
-      //  })
-       
+     
       });
    })
 }
