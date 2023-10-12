@@ -83,7 +83,7 @@ function editBook(id){
    let author = document.querySelector('#author').value
    let coverURL = document.querySelector('#coverURL').value
    let published_year = document.querySelector('#published_year').value
-   // let description = document.querySelector('#description').value
+   
    let genre = document.querySelector('#genre').value
    let price = document.querySelector('#price').value
    let stock = document.querySelector('#stock').value
