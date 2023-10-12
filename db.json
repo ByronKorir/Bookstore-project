@@ -76,6 +76,50 @@
       "price": "1200",
       "stock": 33,
       "id": 7
+    },
+    {
+      "title": "The Birth of the Modern World, 1780 - 1914",
+      "author": "C.A. Bayly",
+      "cover": "https://m.media-amazon.com/images/I/71z9SiwmAuL._SL1360_.jpg",
+      "published_year": "2003",
+      "description": "This thematic history of the world from 1780 to the onset of the First World War reveals that the world was far more 'globalised' at this time than is commonly thought",
+      "genre": "historical",
+      "price": "1100",
+      "stock": "34",
+      "id": 8
+    },
+    {
+      "title": "A Life from Beginning to End",
+      "author": "Ingrid Bergman",
+      "cover": "https://m.media-amazon.com/images/I/61hmxz5l0vS._SL1500_.jpg",
+      "published_year": "2021",
+      "description": "",
+      "genre": "historical",
+      "price": "2500",
+      "stock": "54",
+      "id": 9
+    },
+    {
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "cover": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRqnQWlbi1AnkRDz3mTU2yYVuwkXsFiptcqQ_COdk16xkijN8yG",
+      "published_year": "2012",
+      "description": "Gone Girl is a 2012 crime thriller novel by American writer Gillian Flynn. It was published by Crown Publishing Group in June 2012. The novel was popular and made the New York Times Best Seller list. The sense of suspense in the novel comes from whether Nick Dunne is responsible for the disappearance of his wife Amy.",
+      "genre": "thriller",
+      "price": "1320",
+      "stock": "65",
+      "id": 10
+    },
+    {
+      "title": "The Housemaid",
+      "author": "Freida McFadden",
+      "cover": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSmsIlFLEerhkxPBjJupnpYxzyXo_ASht1zxcG_7zKigPCjOHNK",
+      "published_year": "2022",
+      "description": "Every day I clean the Winchesters' beautiful house top to bottom. I collect their daughter from school. And I cook a delicious meal for the whole family before heading up to eat alone in my tiny room on the top floor. I try to ignore how Nina makes a mess just to watch me clean it up.",
+      "genre": "thriller",
+      "price": "900",
+      "stock": "43",
+      "id": 11
     }
   ],
   "purchase": [

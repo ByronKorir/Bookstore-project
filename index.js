@@ -277,7 +277,7 @@ function addCart(id){
                   <label for="title" class="form-label">book</label>
                   <input required type="text" class="form-control" id="title" value="${book.title}">
             
-                  <label for="Total" class="form-label">Tota(Ksh.)</label>
+                  <label for="Total" class="form-label">Total(Ksh.)</label>
                   <input  required type="number" class="form-control text-center" id="Total" value="${total}">
                   
                   <label for="customer" class="form-label">customer(optional)</label>
