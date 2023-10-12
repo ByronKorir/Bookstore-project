@@ -1,0 +1,152 @@
+/* navigation bar */
+#navbar{
+   position: fixed;    
+   width: 100%;
+   height: 70px;
+   background-color: rgb(68, 68, 54);
+}
+#nav-links a{
+   color: #09ff21;
+}
+
+#mainHead{
+   color: rgb(77, 255, 0);
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 500;
+}
+/* addbook and search */
+#nav-item{
+   margin-top: 10%;
+}
+#searchBtn{
+   background-color: rgb(111, 218, 5);
+}
+
+
+#add_book{
+   background-color: aquamarine;
+   background-size: cover;
+}
+img{
+  /* width:90%; */
+  width: 90%;
+
+   
+}
+/* landing page */
+#cardBox{
+   height: 102vh;
+   background-color: rgb(66, 173, 200);
+}
+#cardDis{
+   width: 60vh;
+}
+#nav-item{
+   display: flex;
+   justify-content: space-around;
+}
+
+form{
+   height: 40px;
+}
+
+
+body{
+   background-color:rgb(115, 102, 102);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+img#singleimg{
+   width:500px;
+   
+}
+#containerI{
+ width:50%;
+ margin: auto;
+}
+#quantity{
+   margin: auto;
+   max-width: 80px;
+}
+/* footer */
+#footer{
+   background-color: #5c3d3d;
+   background-size: cover;
+   text-align: center;
+   margin-top:20px;
+   align-content: center;
+   color: antiquewhite;
+   /* display:flex;
+   flex-direction:row ; */
+
+}
+#footer a{
+   color: #808763;
+   
+}
+#footer img{
+   height: 50px;
+}
+#footer .logo{
+   display:flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-left: 30%;
+   margin-right: 30%;
+   background: fixed;
+   background-color:none;
+   background-size: cover;
+   color:rgb(164, 118, 4);
+}
+
+a:hover{
+   background-color: rgb(218, 241, 211);
+}
+#icons{
+   padding-left: 40%;
+   padding-right:40%;
+   display:flex;
+   justify-content: space-between;
+}
+.email{
+   padding-left: 40%;
+   padding-right: 40%;
+   display: flex;
+   justify-content: space-around;
+  
+   align-content: center;
+}
+#logo{
+  height: 60px;
+}
+.landing i{
+   margin-right: 7%;
+   background-color:none;
+}
+#icons{
+   display:flex;
+   justify-content: space-around;
+   background-color: none;
+}
+i{
+   color: #76b3fd;
+}
+.logo img{
+   width: 200px;
+}
+.landing{
+   display: flex;
+   flex-direction: row;
+}
+#landing-footer{
+   display: flex;
+   justify-content: space-between;
+   margin-left: 25%;
+   margin-right: 25%;
+}
+#buttons{
+   display: flex;
+   justify-content: space-around;
+
+}
