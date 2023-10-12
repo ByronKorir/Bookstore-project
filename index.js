@@ -77,7 +77,7 @@ function editForm(id){
    })
 }
 
-// sending edited details using PATCH(updating)
+// sending edited details using id
 function editBook(id){
    let title = document.querySelector('#title').value;
    let author = document.querySelector('#author').value
@@ -111,7 +111,7 @@ function editBook(id){
 
 }
 
-// deleting a book
+// deleting a book by id
 function deleteBook(id){
    fetch(`http://localhost:3000/books/${id}`,{
       method:'DELETE'
@@ -373,10 +373,6 @@ function searchBooks(){
    })
 }
 
-
-
-
-  
 //    const customer = document.querySelector('#customer').value
          // // console.log(customer)
          // const total = document.querySelector('#Total').value
