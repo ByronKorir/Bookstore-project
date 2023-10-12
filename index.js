@@ -376,7 +376,7 @@ function searchBooks(){
 
 
 
-//calling all functions
+  
 //    const customer = document.querySelector('#customer').value
          // // console.log(customer)
          // const total = document.querySelector('#Total').value
