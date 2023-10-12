@@ -330,9 +330,7 @@ function updatingStock(id,stock,quantity){
         
 
 
-// function postingData(title,quantity,total){
-   
-// }
+
 
 
 //searching books by either titles or genres
