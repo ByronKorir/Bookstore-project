@@ -373,42 +373,6 @@ function searchBooks(){
    })
 }
 
-// cart
-// const shoppingCart = {
-//    items: [], // An array to store cart items
-//    addItem: function (product, quantity) {
-//      // Function to add items to the cart
-//      this.items.push({ product, quantity });
-//    },
-//    removeItem: function (product) {
-//      // Function to remove items from the cart
-//      const index = this.items.findIndex(item => item.product === product);
-//      if (index !== -1) {
-//        this.items.splice(index, 1);
-//      }
-//    },
-//    getCartTotal: function () {
-//      // Function to calculate the total cost of items in the cart
-//      return this.items.reduce((total, item) => {
-//        return total + (item.product.price * item.quantity);
-//      }, 0);
-//    },
-//    clearCart: function () {
-//      // Function to clear all items from the cart
-//      this.items = [];
-//    }
-//  };
- 
- // Example usage:
-//  shoppingCart.addItem({ name: 'Product 1', price: 10 }, 2);
-//  shoppingCart.addItem({ name: 'Product 2', price: 20 }, 3);
- 
-//  console.log(shoppingCart.items); // Shows the items in the cart
-//  console.log(shoppingCart.getCartTotal()); // Shows the total cost
-//  shoppingCart.removeItem({ name: 'Product 1', price: 10 });
-//  console.log(shoppingCart.items); // Shows the updated items
-//  shoppingCart.clearCart();
-//  console.log(shoppingCart.items); // Shows an empty cart
 
 
 
