@@ -1,7 +1,7 @@
 
 //display all available books
 function displayAllbooks(){
-   fetch(`http://localhost:3000/books`)
+   fetch(`https://bookstore-h6nu.onrender.com/books`)
    .then(res => res.json())
    .then((books) => {
       books.forEach(book => {
@@ -37,7 +37,7 @@ displayAllbooks();
 
 //editing a book
 function editForm(id){
-   fetch(`http://localhost:3000/books/${id}`)
+   fetch(`https://bookstore-h6nu.onrender.com/books/${id}`)
    .then(res => res.json())
    .then((book) => {
       const editForm = document.querySelector('#book-cards')
@@ -87,7 +87,7 @@ function editBook(id){
    let genre = document.querySelector('#genre').value
    let price = document.querySelector('#price').value
    let stock = document.querySelector('#stock').value
-   fetch(`http://localhost:3000/books/${id}`,{
+   fetch(`https://bookstore-h6nu.onrender.com/books/${id}`,{
       method:'PATCH',
       headers:{
          'Accept':"application/json",
@@ -113,7 +113,7 @@ function editBook(id){
 
 // deleting a book by id
 function deleteBook(id){
-   fetch(`http://localhost:3000/books/${id}`,{
+   fetch(`https://bookstore-h6nu.onrender.com/books/${id}`,{
       method:'DELETE'
    })
    .then(res => res.json())
@@ -193,7 +193,7 @@ function postBook(){
    let genre = document.querySelector('#genre').value
    let price = document.querySelector('#price').value
    let stock = document.querySelector('#stock').value
-   fetch(`http://localhost:3000/books`,{
+   fetch(`https://bookstore-h6nu.onrender.com/books`,{
       method:'POST',
       headers:{
          'Accept':"application/json",
@@ -218,7 +218,7 @@ function postBook(){
 
 // function to view single book description 
 function viewDescription(id){
-   fetch(`http://localhost:3000/books/${id}`)
+   fetch(`https://bookstore-h6nu.onrender.com/books/${id}`)
    .then(res => res.json())
    .then(book => {
       let card = document.querySelector('#book-cards')
@@ -258,7 +258,7 @@ function viewDescription(id){
 
 //add cart
 function addCart(id){
-   fetch(`http://localhost:3000/books/${id}`)
+   fetch(`https://bookstore-h6nu.onrender.com/books/${id}`)
    .then(res => res.json())
    .then(book => {
       
@@ -310,7 +310,7 @@ function updatingStock(id,stock,quantity){
    const customer = document.querySelector('#customer').value
       const newStock = stock-quantity
      
-         fetch(`http://localhost:3000/books/${id}`,{
+         fetch(`https://bookstore-h6nu.onrender.com/books/${id}`,{
          method:'PATCH',
          headers:{
             'Accept':'application/json',
@@ -335,7 +335,7 @@ function updatingStock(id,stock,quantity){
 
 //searching books by either titles or genres
 function searchBooks(){
-   fetch(`http://localhost:3000/books`)
+   fetch(`https://bookstore-h6nu.onrender.com/books`)
    .then(res => res.json())
    .then((books) => {
       const searchedGenre = document.querySelector('#search').value;
